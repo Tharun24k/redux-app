@@ -13,7 +13,7 @@ function App() {
       <div>
         <button onClick={()=>{dispatch(increment())}}>Increase</button>
         <button onClick={()=>{dispatch(decrement())}}>Decrease</button>
-        <button onClick={()=>{dispatch(multiplication(5))}}>multiply</button>
+        <button onClick={()=>{dispatch(multiplication(10))}}>multiply</button>
       </div>
     </div>
 
